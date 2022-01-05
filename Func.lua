@@ -1,4 +1,11 @@
-function GetFactoryName()
+function Func_List()
+
+    print("Here is the list of your machines")
+
+    
+end
+
+function Func_GetFactoryName()
 
     local nameInput = ""
     local cont = true
@@ -23,4 +30,14 @@ function GetFactoryName()
     print("Your factory name is", nameInput)
 
     return nameInput
+end
+
+--return int, the choice of the player in mainmenu
+function Func_GetChoosedFromMain()
+
+    print(Txt_MAINMENU)
+
+    MainMenuInput = tonumber(io.read())
+
+    return MainMenuInput
 end
