@@ -12,3 +12,7 @@ M_Storage = {
     capacity = 10,
     price = 15
 }
+
+M_MachinesList = {
+  "grt"
+}
