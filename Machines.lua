@@ -14,5 +14,5 @@ M_Storage = {
 }
 
 M_MachinesList = {
-  "grt"
+  "hfrgt"
 }

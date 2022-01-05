@@ -17,7 +17,7 @@ NbTurn = 0
 
 print(Txt_WELCOME)
 
- Ru = U_GetFactoryName()
+U_GetFactoryName()
 
 -- End game start
 
@@ -28,7 +28,7 @@ while (Cont) do
 
     local choosingSubmenu = U_GetChoosedFromMain()
 
-    print(U_Submenu[choosingSubmenu])
+   print(U_Submenu[choosingSubmenu])
 
     NbTurn = NbTurn + 1
 
