@@ -13,6 +13,8 @@ NbTurn = 0
 
 -- Game start
 
+--Ma = M_GoldMine.new(M_GoldMine, nil)
+
 -- show welcome message + get player's name
 
 print(Txt_WELCOME)
